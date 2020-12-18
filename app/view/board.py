@@ -272,7 +272,7 @@ def drawWindow():
     InProgressEntry = Widget.GetEntry(InProgressFrame)
     InProgressEntry.pack(side=BOTTOM, fill=X)
     InProgressEntry.bind("<Return>", _AddToProgress)
-    # InProgressEntry.bind("<Up>", _FocusUpInProgress)
+    # InProgressEntry.biTnd("<Up>", _FocusUpInProgress)
 
     # / Done
 
